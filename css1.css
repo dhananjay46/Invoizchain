@@ -1,0 +1,1520 @@
+   
+    *
+    {
+        margin:0px;
+        padding:0px;
+    }
+
+
+
+    @font-face
+    {
+        src:url(font/Poppins-Regular.otf) ;
+        font-family: pop;
+    }
+
+
+    @font-face
+    {
+        src:url(font/Poppins-Bold.otf) ;
+        font-family: popb;
+    }
+/*
+.row{
+    border:1px solid gray;
+}
+.col-12{
+        border:1px solid red;
+}
+*/
+    #wrapper
+    {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+
+    .bg-default
+    {
+        background-color: #fff !important;
+        padding-left: 10%!important;
+    }
+
+    #navbarTogglerDemo03
+    {
+        padding-left: 2%;
+    }
+
+    .topnav
+    {
+        margin-left: 9%;
+    }
+
+
+
+    .nav-item
+    {
+        
+        color: #ddd;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 18px;
+    }
+
+
+    span
+    {
+        color: #a9a9a9;
+    }
+
+
+    span:hover
+    {
+        color:black;
+    }
+
+    .this
+    {
+        margin-left: -20%;
+    }
+
+
+    .pad{
+        margin-top: 100px;
+
+    }
+
+    .btn-success1
+     {
+        font-family: pop;
+        width: 170px;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+        border: 2px solid #4B4B4B;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #131010;
+        background-color: #ffffff;
+        border-color: #4B4B4B;
+    }
+
+
+    .btn-success1:hover
+    {
+        background-color:#FFDB00;
+        color: #000;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: pop;
+        font-size: 15px;
+    }
+
+
+    .invoice
+    {
+        position: relative;
+        left: 15px;
+        top: 184px;
+        font-family: Pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 37px;
+        color: #4B4B4B;
+    }
+
+
+    .abc
+    {
+        position: relative;
+        width: 450px;
+        height:450px;
+        display:block;
+        margin-left: 560px;
+        bottom: 20px;
+
+    }
+
+
+    .btn-success3
+    {
+
+        width: 370px;
+        height: 60px;
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        background: #FFDB00;
+        border-radius: 5px;
+        color: #4B4B4B;
+        font-size: 20px;
+        padding-right: 17px;
+        border: 0px solid #4B4B4B;
+        box-sizing: border-box;
+        font-family: pop;
+        font-size: 20px;
+        margin-top: -250px;
+        margin-left: 15px;
+      
+    }
+
+    .blok
+    {
+        display: initial;
+    }
+
+    .flok
+
+    {
+        display: initial;
+    }
+
+
+
+    .btn-success3:hover
+    {
+        background-color:#FFDB00;
+        color: #4B4B4B;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: popb;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+
+    .uphold
+    {
+        width: 45px;
+        height: 50px;
+    }
+
+    up
+
+    {
+        font-family: pop;
+        padding-left: 39px;
+        color: #4B4B4B;
+        font-size: 22px;
+
+    }
+
+
+    g
+
+    {
+
+        position: relative;
+        font-family:pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFDB00;
+    }
+
+
+    d
+
+    {
+        position: relative;
+        font-family:pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 36px;
+        color: #4B4B4B;
+    }
+
+
+    c
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        color: #4B4B4B;
+
+    }
+
+    .cardRow{
+        padding-top: 100px;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .card
+    {
+        width: 100%;
+        height: 354px;
+        float: left;
+        border: #fff !important;
+    }
+
+
+    .cardIMG
+    {
+
+        width: 64px;
+        height: 64px;
+        margin-left: 153px;
+        margin-top: 60px;
+    }
+
+
+    .card-title 
+    {
+        position: relative;
+        margin-left: 70px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 22px;
+        color: #000000;
+    }
+
+
+    .card-title1
+    {
+        position: relative;
+        margin-left: 107px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 22px;
+        color: #000000;
+    }
+
+
+    .card-text
+    {
+        position: relative;
+        font-family: Poppins;
+        padding-top: 10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #4B4B4B;
+        left:8px;
+
+    }
+
+
+    .card:hover
+    {
+         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .float
+    {
+        width: 50px;
+        height: 66px;
+        float: left;
+    }
+
+    .www
+    {
+        font-size: 22px;
+        margin-left: 70px;
+        margin-top: 20px;
+        padding-top: 7px;
+    }
+
+     .proud
+    {
+        position: relative;
+        font-family: Pop;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        color: #4B4B4B;
+        padding-top: 43px;
+    }
+
+        .btn-success2
+    {
+        position: relative;
+        margin-top: 80px;
+        margin-left:5px;
+        width: 230px;
+        height: 60px;
+        border: 2px solid #4B4B4B;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #131010;
+        background-color: #ffffff;
+        border-color: #4B4B4B;
+        font-family: pop;
+        font-weight: 100;
+        font-size: 22px;
+    }
+
+    .btn-success2:hover
+    {
+        background-color:#FFDB00;
+        color: #000;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: pop;
+        font-size: 22px;
+    }
+
+    .Untitled-2
+    {
+        position: relative;
+        width: 450px;
+        height: 450px;
+        margin-left: 253px;
+        margin-top: -30px;
+    }
+
+
+
+    .Testimonials
+    {
+        padding-top: 50px;
+    }
+
+    .user
+    {
+        font-family: Pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFDB00;
+        position: relative;
+
+    }
+
+    .Customer
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 36px;
+        color: #4B4B4B;
+        padding-left: 20px;
+    
+    }
+
+    .cardpad
+    {
+        padding-top: 5%;
+    }
+
+    .card3
+    {
+        position: relative;
+        width: 370px;
+        height: 470px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 85px;
+    }
+
+
+    .card3:hover
+    {
+         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .cardpic3
+    {
+
+        position: relative;
+        width: 110px;
+        height: 110px;
+        margin-left: 120px;
+        margin-top: 40px;
+        
+    }
+
+
+    .card-title3
+    {
+        position: relative;
+        font-family: Pop;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 18px;
+        color:#FF9247;
+        padding-top: 10%;
+    }
+
+
+    .card-text4
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    .btm
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 20px;
+        text-align: center;
+        color: #4B4B4B;
+        padding-top: 5%;
+    }
+
+
+    .card4
+    {
+        position: relative;
+        width: 370px;
+        height: 470px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 85px;
+       
+    }
+
+
+    .card4:hover
+    {
+         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .cardpic4
+    {
+
+        position: relative;
+        width: 110px;
+        height: 110px;
+         margin-left: 120px;
+         margin-top: 40px;
+    }
+
+
+
+    .card-title4
+    {
+        position: relative;
+        font-family: Pop;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFD95D;
+       padding-top: 10%;
+    }
+
+
+
+    .card-text5
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+
+    .btm1
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 20px;
+        text-align: center;
+        color: #4B4B4B;
+        padding-top: 5%;
+    }
+
+
+    .card5
+    {
+        position: relative;
+        width: 370px;
+        height: 470px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 85px;
+    
+    }
+
+
+    .card5:hover
+    {
+         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .cardpic5
+    {
+
+        position: relative;
+        width: 110px;
+        height: 110px;
+         margin-left: 120px;
+         margin-top: 40px;
+        
+
+    }
+
+    .card-text6
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+
+    .card-title5
+    {
+        color: #8652D0;
+        font-family: pop;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 18px;
+        padding-top: 10%;
+    }
+
+
+
+    .btm3
+    {
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #4B4B4B;
+        padding-top: 5%;
+    }
+
+
+
+
+    .dwn
+    {
+        position: relative;
+        width: 207px;
+        height: 33px;
+        font-family: pop;
+        font-weight: 500;
+        font-size: 22px;
+        margin-left: 68px;
+        margin-top: -43px;
+    }
+
+    .pay
+    {
+        position: relative;
+        color: #4B4B4B;
+        font-family: pop;
+        font-weight: 500;
+        font-size: 32px;
+        padding-left: 15px;
+    
+    }
+
+    .payy
+    {
+         position: relative;
+        color: #4B4B4B;
+        font-family: pop;
+        font-weight: 500;
+        font-size: 32px;
+        padding-left: 15px;
+        margin-top: -20px;
+    }
+
+    .avail
+    {
+        position: relative;
+        width: 230px;
+        height: 33px;
+        font-family: pop;
+        font-weight: 500;
+        font-size: 22px;
+        color: #4B4B4B;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .btn-success4
+    {
+        position: relative;
+        font-family:pop;
+        width: 230px;
+        height: 60px;
+        border: 1px solid #4B4B4B;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #ffffff;
+        font-size: 22px;
+        margin-top: 43px;
+        margin-left: 21px;
+
+    }
+
+
+    .btn-success4:hover
+    {
+        background-color:#FFDB00;
+        color: #000;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: pop;
+        font-size: 22px;
+    }
+
+
+    .apple
+    {
+        position: relative;
+        width: 34px;
+        height: 39px;
+    }
+
+
+    .btn-success5
+    {
+
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        width: 230px;
+        height: 60px;
+        margin-top: 43px;
+        margin-left: 27px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border-left: 1px solid #f9f9f9;
+        border-right: 1px solid #f9f9f9; 
+        border-bottom:0px solid #f9f9f9;
+        border-top: 0px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+       
+    }
+
+    .btn-success5:hover
+    {
+        background-color:#FFDB00;
+        color:#000;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: pop;
+        font-size: 20px; 
+    }
+
+
+    .play {
+        position: relative;
+        width: 34px;
+        height: 39px;
+        margin-left: 1px;
+    }
+
+     .hand
+    {
+        position: absolute;
+        height: 450px;
+        width: 450px;
+        margin-left: 90px;
+        margin-top: -280px;
+    }
+
+      .cnt
+    {
+
+        position: relative;
+        font-family: pop;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFDB00;
+    }
+
+    .feed
+    {
+        position: relative;
+        width: 783px;
+        height: 108px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 36px;
+        color: #4B4B4B;
+    }
+
+    .frm
+    {
+        position: relative;
+        font-size: 16px;
+        font-family: pop;
+        padding-left: 42px;
+        padding-top: 5px;
+        width: 540px;
+        background: #F4F4F4;
+        border-radius: 5px;
+        border-color:#fff;
+        border-top: 0px;
+        border-left: 0px;
+        height: 80px;
+
+    }
+
+    .frm1
+    {
+        position: relative;
+        font-size: 16px;
+        padding-top: 5px;
+        font-family: pop;
+        width: 538px;
+        padding-left: 49px;
+        background: #F4F4F4;
+        border-radius: 5px;
+        border-color:#fff;
+        border-top: 0px;
+        border-left: 0px;
+        height: 80px;
+        margin-left: 25px;
+    }
+
+
+    .frm2
+    {
+        position: relative;
+        width: 1159px;
+        height: 80px;
+        font-family: pop;
+        margin-top: 46px;
+        background: #F4F4F4;
+        border-radius: 5px;
+        padding-left: 36px;
+        border-color:#fff;
+        color:#7a7a7a;
+        border-top: 0px;
+        border-left: 0px;
+        margin-top: 27px;
+    }
+
+    .frm3
+    {
+        position: relative;
+        padding-top: 29px;
+        padding-left: 39px;
+        width: 1168px;
+        height: 260px;
+        background: #F4F4F4;
+        border-radius: 5px;
+        border-color:#fff;
+        border-top: 0px;
+        border-left: 0px;
+        margin-top: 27px;
+    }
+    select
+    {
+        background-color:#ddd;
+    }
+
+    .bttn 
+    {
+
+        position: relative;
+        width: 1170px !important    ;
+        height: 80px;
+        background: #FFDB00;
+        border-radius: 5px;
+        font-family: pop;
+        color:#0000;
+         margin-top: 27px;
+    }
+
+
+    footer
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: #F4F4F4;
+    }
+   
+
+    .foot
+    {
+        position: relative;
+        width: 428px;
+        height:78px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        color: #4B4B4B;
+        padding-top: 40px;
+        padding-left: 27px;
+    }
+
+    a
+    {
+        padding-left: 19px;
+    }
+
+
+    .c1
+    {
+        padding-left: 60px;
+        list-style-type: none;
+        padding-top: 10px; 
+        font-size: 15px;
+        font-family: pop;
+
+    }
+
+     .center
+    {
+        margin-left: 60px;
+        margin-top: 13%;
+
+        
+    }
+
+ 
+
+    .right
+    {
+      margin-top: 21%; 
+      padding-left: 15px;
+
+    }
+
+    .s1
+    {
+        padding-top: 10px;
+        font-size: 15px;
+        list-style-type: none;
+        font-family: pop;
+    }
+
+    .last
+    {
+         margin-top: 21%;
+         margin-left: -30px;
+        
+    }
+
+    .a1
+    {
+        font-size: 15px;
+        padding-top: 10px;
+        list-style-type: none;
+        font-family: pop;
+    }
+
+    pan
+    {
+        font-size: 18px;
+        font-family: pop;
+        font-weight: 600;
+        color: #4B4B4B;
+    }
+
+    a
+    {
+        color: #4B4B4B !important;
+    }
+
+    .copy
+    {
+        position: relative;
+        width: 123px;
+        height: 23px;
+        font-family: pop;
+        font-size: 15px;
+        margin-top: 4%;
+        margin-left: 43%;
+    }
+
+     @media (max-width: 576px)
+     {
+        .icon
+        {
+            width: 30px;
+            height: 20px;
+            position: relative;
+            margin: 0px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+            cursor: pointer;
+        }
+
+        .this
+        {
+          position: relative;
+          width: 78px!important;
+          height: 31px !important;
+          left: 8px;
+          top: 4px;;
+        }
+
+        .invoice
+    {
+        
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 30px;
+        text-align: center;
+        color: #4B4B4B;
+        position: relative;
+      
+    }
+    
+
+     .btn-success3
+    {
+
+        
+        position: relative;
+        width: 220px;
+        height: 60px;
+        background: #FFDB00;
+        border-radius: 5px;
+        font-family: pop;
+        font-size: 15px;
+        left: 50px;
+        margin-top: 5px;
+       
+    }
+
+     .btn-success3:hover
+    {
+        background-color:#FFDB00;
+        color: #000;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: popb;
+        font-size: 15px;
+    }
+
+     .uphold
+    {
+        position: relative;
+        width: 22px;
+        height: 30px;
+        font-size: 15px;
+        left: 10px;
+        
+    }
+
+     up
+
+    {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        color: #4B4B4B;
+  
+        padding-left: 15px;
+
+    }
+
+
+        .abc
+    {
+        position: relative;
+        width: 256px;
+        height: 256px;
+        left: -516px;
+        margin-top: 175px;
+
+    }
+
+    g
+
+    {
+
+       position: relative;
+        width: 86px;
+        height: 27px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFDB00;
+        margin-left: 135px;
+        
+    }
+
+    .ft
+    {
+        margin-top: 80px;
+    }
+
+
+      d
+
+    {
+        
+        position: relative;
+        width: 246px;
+        height: 135px;
+        font-size: 30px;
+        text-align: center;
+        color: #4B4B4B;
+        margin-left: 60px;
+    }
+
+    .blok
+    {
+       word-wrap: break-word;
+       margin-left: 98px;
+    }
+
+    .flok
+    {
+        word-wrap: break-word;
+       margin-left: 123px;
+    }
+
+
+    c
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+        color: #4B4B4B;
+       
+    }
+
+      .float
+    {
+        float: left;
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 50px;
+        height: 66px;
+    }
+
+      .www
+    {
+       
+        float: left;
+        margin-top: 70px;
+        margin-left: 35px;
+        font-size: 22px;
+        font-family: pop;
+    }
+
+    .proud
+    {
+        position: absolute;
+        font-family: Pop;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        color: #4B4B4B;
+        padding-top: 135px;
+        padding-left: 40px;
+        
+
+    }
+
+     .Untitled-2
+    {
+        position: relative;
+        width: 214px;
+        height: 214px;
+        margin-left: 95px;
+        margin-top: -330px;
+    }
+
+      .btn-success2
+    {
+        position: relative;
+        width: 230px;
+        height: 60px;
+        border: 2px solid #4B4B4B;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #131010;
+        background-color: #ffffff;
+        border-color: #4B4B4B;
+        font-family: pop;
+        font-weight: 100;
+        padding-top: 5px;
+        font-size: 22px;
+        margin-top: 400px;
+        margin-left: 85px;
+    }
+
+    .user
+    {
+        margin-left: 25px;
+        padding-top: 30px;
+    }
+
+       dd
+    {
+        font-family: Pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFDB00;
+        position: relative;
+        padding-left: 140px;
+
+    }
+
+    dc
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 36px;
+        color: #4B4B4B;
+        padding-left: 99px;
+
+    }
+
+     .Customer
+
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 36px;
+        color: #4B4B4B;
+        padding-left: 20px;
+    
+    }
+
+     .lg1
+    {
+        padding-left: 45px;
+    }
+
+
+    .dwn
+    {
+        position: relative;
+        width: 207px;
+        height: 33px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 22px;
+        color: #4B4B4B;
+        margin-left: 105px;
+    }
+
+     .pay
+    {
+        position: relative;
+        color: #4B4B4B;
+        font-family: pop;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 32px;
+        width: 367px;
+        height: 108px;
+        margin-left: 20px;
+    }
+    .payy
+    {
+        margin-left: 60px;
+          position: relative;
+        color: #4B4B4B;
+        font-family: pop;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 32px;
+        margin-top: -79px;
+
+    }
+        .avail
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 22px;
+        color: #4B4B4B;
+        padding-top: 20px;
+        margin-left: 70px;
+        margin-top: -30px;
+    }
+
+        .hand
+    {
+        position: relative;
+        height: 328px;
+        width: 328px;
+        margin-left: 21px;
+        margin-top: -510px;
+    
+    }
+
+       .btn-success4 
+    {
+        position: relative;
+        font-family:pop;
+        width: 230px;
+        height: 60px;
+        border: 1px solid #4B4B4B;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding-left: 25px;
+        font-size: 22px;
+        margin-top: 410px;
+        margin-left: 70px;
+    }
+
+    .btn-success5
+    {
+        position: relative;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        width: 230px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border-left: 1px solid #f9f9f9;
+        border-right: 1px solid #f9f9f9; 
+        border-bottom:0px solid #f9f9f9;
+        border-top: 0px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+         margin-top: 24px;
+        margin-left: 70px;
+    }
+
+
+    .cnt
+    {
+
+        position: relative;
+        width: 117px;
+        height: 27px;;
+        font-family: pop;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFDB00;
+        margin-left: 115px;
+        margin-top: 100px;
+    }
+
+     ab
+    {
+         margin-left: 10px;
+         margin-top: 14px;
+    }
+
+
+    ac
+    {
+        display: block;
+        margin-left: 53px;
+
+    }
+
+    ad
+    {
+        display: block;
+        margin-left: 60px;
+    }
+
+    ae
+    {
+        display: block;
+        margin-left: 29px;
+    }
+
+    .fgh
+    {
+        margin-top: 105px;
+    }
+
+    .end
+    {
+        width: 100%;
+        height: 721px;
+        margin-top: 50px;
+    }
+
+        .frm1
+    {
+        position: relative;
+        font-size: 16px;
+        padding-top: 5px;
+        font-family: pop;
+        height: 80px;
+        width: 376px;
+        padding-left: 41px;
+        background: #F4F4F4;
+        border-radius: 5px;
+        border-color:#fff;
+        border-top: 0px;
+        border-left: 0px;
+        margin-left: 3px;
+        margin-top: 26px;
+    }
+
+
+     .footlogo
+    {
+       top: 625px;
+        left: 62px;
+        width: 235px;
+        height: 92px;
+    }
+
+    .center
+    {
+        margin-top: -369px;
+        margin-left: 0px;
+        
+    }
+
+    .right
+    {
+        margin-top: -369px;
+        margin-left: 0px;
+    }
+
+
+    .last 
+    {
+      
+        margin-left: 60px;
+        margin-top: -300px;
+    }
+
+    .social
+    {
+        top: 280px;
+        margin-left: 62px;
+        
+    }
+
+    .foot
+    {
+        position: relative;
+        width: 310px;
+        height:78px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        color: #4B4B4B;
+         margin-left: 50px;
+         top: 273px;
+    }
+
+     .copy
+    {
+        position: relative;
+        width: 123px;
+        height: 23px;
+        margin-left: 174px;
+        font-family: pop;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 15px;
+    }
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+     }
+
+
+   
+
+
